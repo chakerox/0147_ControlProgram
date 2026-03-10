@@ -24,3 +24,12 @@ int main(){
     cin >> nilBI;
     cout << "Masukkan nilai Matematika = ";
     cin >> nilMT;
+
+    rerata = Rata_rata(nilBI, nilMT);
+    status = Status_lulus(rerata);
+
+    cout << "Status kelulusan = " << status 
+         << ", dengan nilai rerata = " << rerata << endl;
+
+    return 0;
+}
